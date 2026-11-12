@@ -4,8 +4,6 @@ Pipeline completo de Engenharia de Dados (Arquitetura Medallion) consolidando in
 
 ## 🖥️ Preview do Dashboard
 
-## 🖥️ Preview do Dashboard
-
 ### 🎯 Diagnóstico & Soluções (IVM)
 ![Diagnóstico & Soluções](Diagnóstico%20&%20Soluções.png)
 
