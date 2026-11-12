@@ -4,7 +4,22 @@ Pipeline completo de Engenharia de Dados (Arquitetura Medallion) consolidando in
 
 ## 🖥️ Preview do Dashboard
 
-![Visão Geral do Dashboard](dashboard_geral.png)
+## 🖥️ Preview do Dashboard
+
+### 🎯 Diagnóstico & Soluções (IVM)
+![Diagnóstico & Soluções](Diagnóstico%20&%20Soluções.png)
+
+### 🏫 Educação Completa (INEP)
+![Educação Completa](Educação%20Completa%20(INEP).png)
+
+### 🏭 Setores Econômicos
+![Setores Econômicos](Setores%20Econômicos.png)
+
+### 🌐 Infraestrutura & Fibra
+![Infraestrutura & Fibra](Infraestrutura%20&%20Fibra.png)
+
+### 📋 Tabela Master Completa
+![Tabela Master](Tabela%20Master%20Completa.png)
 
 ## 🛠️ Stack & Arquitetura
 * **Ingestão & Camadas:** Python (Pandas) — Bronze / Silver / Gold
