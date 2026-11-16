@@ -244,6 +244,6 @@ with aba5:
 st.divider()
 st.caption(
     "Nota Metodológica: Projeto de portfólio em Engenharia e Análise de Dados. "
-    "Consolidado a partir de indicadores públicos de referência (IBGE e INEP) e parâmetros "
-    "calibrados para validação da arquitetura Medallion, modelagem SQL (DuckDB) e cálculo do IVM."
+    "Consolidado a partir de séries históricas públicas de referência (IBGE — Censo 2022 / Contas Regionais e INEP — Censo Escolar 2023) "
+    "e parâmetros calibrados para validação da arquitetura Medallion, modelagem SQL (DuckDB) e cálculo do IVM."
 )
