@@ -239,3 +239,11 @@ with aba4:
 with aba5:
     st.subheader("Base Completa da Camada Gold (Todos os Indicadores Consolidados)")
     st.dataframe(df_view, use_container_width=True, hide_index=True)
+
+# 6. RODAPÉ METODOLÓGICO (PORTFÓLIO & TRANSPARÊNCIA)
+st.divider()
+st.caption(
+    "Nota Metodológica: Projeto de portfólio em Engenharia e Análise de Dados. "
+    "Consolidado a partir de indicadores públicos de referência (IBGE e INEP) e parâmetros "
+    "calibrados para validação da arquitetura Medallion, modelagem SQL (DuckDB) e cálculo do IVM."
+)
