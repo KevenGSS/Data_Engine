@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(page_title="Observatório Alto Jequitinhonha", page_icon="📊", layout="wide")
 
 st.title("📊 Observatório Multissetorial Completo — Alto Jequitinhonha")
-st.markdown("**Arquitetura:** Medallion (Bronze / Silver / Gold) | **SQL Engine:** DuckDB | **Dados:** IBGE & INEP")
+st.markdown("**Versão:** `v1.1` | **Arquitetura:** Medallion (Bronze / Silver / Gold) | **SQL Engine:** DuckDB | **Dados:** IBGE & INEP")
 st.divider()
 
 # 1. CAMADA GOLD COMPLETA
