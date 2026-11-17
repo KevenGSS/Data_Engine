@@ -178,6 +178,39 @@ with aba1:
     tabela_acoes.columns = ['Município', 'IVM (Risco)', 'Gap Público (%)', 'Gap Labs (%)', 'Solução Prescritiva SQL']
     st.dataframe(tabela_acoes, use_container_width=True, hide_index=True)
 
+    # TRANSPARÊNCIA METODOLÓGICA (METAS E PESOS DO IVM)
+    with st.expander("📐 Metodologia do IVM: Origem das Metas e Critérios de Ponderação"):
+        st.markdown("""
+        O **Índice de Vulnerabilidade Multissetorial (IVM)** mede a distância ponderada (*gap*) de cada município em relação a benchmarks de políticas públicas nacionais e equilíbrio fiscal:
+        """)
+        df_metodologia = pd.DataFrame([
+            {
+                "Dimensão": "Dependência da Adm. Pública (VAB)",
+                "Meta / Limite": "≤ 30,0% do VAB",
+                "Peso": "35% (0,35)",
+                "Origem & Justificativa Técnica": "Benchmark regional de diversificação econômica (polo de referência: Turmalina/Capelinha). Maior peso por determinar a capacidade própria de investimento e arrecadação do município."
+            },
+            {
+                "Dimensão": "Infraestrutura Digital Escolar",
+                "Meta / Limite": "≥ 60,0% das escolas",
+                "Peso": "25% (0,25)",
+                "Origem & Justificativa Técnica": "Parâmetro da Estratégia Nacional de Escolas Conectadas / PNE (Meta 7). Impacta diretamente a inclusão digital e o desempenho nas avaliações do SAEB."
+            },
+            {
+                "Dimensão": "Cobertura de Esgotamento Sanitário",
+                "Meta / Limite": "≥ 80,0% dos domicílios",
+                "Peso": "25% (0,25)",
+                "Origem & Justificativa Técnica": "Referência intermediária alinhada ao Novo Marco Legal do Saneamento (Lei 14.026/2020, que estabelece 90% até 2033). Indicador crítico de saúde pública preventiva."
+            },
+            {
+                "Dimensão": "Docentes com Licenciatura (Médio)",
+                "Meta / Limite": "≥ 85,0% licenciados",
+                "Peso": "15% (0,15)",
+                "Origem & Justificativa Técnica": "Alinhado à Meta 15 do Plano Nacional de Educação (PNE / INEP AFD) para adequação da formação docente à disciplina lecionada."
+            }
+        ])
+        st.dataframe(df_metodologia, use_container_width=True, hide_index=True)
+
 with aba2:
     col_e1, col_e2 = st.columns(2)
     with col_e1:
