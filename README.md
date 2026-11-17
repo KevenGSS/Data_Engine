@@ -39,7 +39,7 @@ O **Índice de Vulnerabilidade Multissetorial (IVM)** mede a distância ponderad
 ![Educação Completa](Educação%20Completa%20(INEP).png)
 
 ### Setores Econômicos (VAB & Agro)
-![Setores Econômicos](Setores%20Econômicos.png)
+![Setores Econômicos](Setores%20Economicos.png)
 
 ### Infraestrutura & Fibra
 ![Infraestrutura & Fibra](Infraestrutura%20&%20Fibra.png)
